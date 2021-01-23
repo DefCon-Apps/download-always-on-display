@@ -378,9 +378,13 @@ nav > ul li a:active {
 
 // iPhone Device Preview
 
+.iphoneBackground {
+	width: 400px;
+	position: absolute;
+}
+
 .iphonePreview {
 	grid-area: p;
-	background-image: url($device-color);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
@@ -388,10 +392,11 @@ nav > ul li a:active {
 
 .iphoneScreen {
 	width: 349px;
+	position: absolute;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+	margin-left: 22px;
+	margin-top: 53.4px;
 }
 
 .videoContainer {
@@ -410,14 +415,18 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 1070px) {
 
+	.iphoneBackground {
+		width: 370px;
+	}
+
 	.iphonePreview {
 		background-size: 370px auto;
 	}
 
 	.iphoneScreen {
-		width: 322px;
-		margin-left: 24px;
-		margin-top: 22px;
+		width: 323.5px;
+		margin-left: 20.5px;
+		margin-top: 48px;
 	}
 
 	.videoContainer {
@@ -436,6 +445,10 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 992px) {
 
+	.iphoneBackground {
+		width: 260px;
+	}
+
 	.iphonePreview {
 		display: flex;
 		background-size: 260px auto;
@@ -446,12 +459,13 @@ nav > ul li a:active {
 	}
 
 	.iphoneScreen {
-		width: 226px;
-		height: 488px;
+		width: 227.5px;
+		height: 455px;
 		-webkit-clip-path: url(#screenMask);
 		clip-path: url(#screenMask);
 		margin: 0px;
-		margin-top: 17px;
+		margin-top: 34px;
+		margin-left: -5px;
 	}
 
 	.videoContainer {
