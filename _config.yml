@@ -34,17 +34,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  # - title                                 : GitHub Pages Jekyll Theme
-  #   description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-  #   fontawesome_icon_name                 : magic
+  - title                                 : 다양한 테마 제공
+    description                           : LG, 삼성 등 다양한 제조사의 기본 탑재 AOD 테마를 제공합니다.
+    fontawesome_icon_name                 : magic
     
-  # - title                                 : iPhone Device Preview
-  #   description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-  #   fontawesome_icon_name                 : mobile
+  - title                                 : 번인 방지 옵션 제공
+    description                           : OLED 스마트폰에서의 번인 현상 발생을 최소화하고자 일정 주기마다 요소를 이동시키는 번인 방지 옵션을 제공합니다.
+    fontawesome_icon_name                 : mobile
 
-  # - title                                 : Video Support
-  #   description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-  #   fontawesome_icon_name                 : play-circle
+  - title                                 : 절전 옵션 제공
+    description                           : 최소한의 전력만을 소모하기 위해 근접센서, 조도센서 등을 이용한 자동꺼짐 기능과 자동밝기 조절 기능을 제공합니다.
+    fontawesome_icon_name                 : play-circle
 
   # - title                                 : Automatic Icon and Metadata
   #   description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
